@@ -1,0 +1,263 @@
+symnum(c)
+c <- cov(x, y, na.rm = FALSE, use)
+ls()
+load(".RData")
+ls
+ls()
+rm(covmat, e)
+ls()
+xmat
+xcov <- cov(cbind(xmat, xmat))
+xcov
+ls()
+xcov
+ls()
+rm(xcov)
+ls
+ls()
+xmat
+ls()
+cxmat <- cov(xmat)
+cxmat
+ls()
+rm(cxmat)
+ls()
+cxmat <- cov(cbind(xmat, xmat))
+cxmat
+ex <- eigen(cxmat)
+ex$values
+ex$vectors
+ls()
+rm(cxmat)
+em(ex)
+rm(ex)
+ls()
+t(xmat)
+cov(t(xmat))
+xcmat <- cov(cbind(t(xmat), t(xmat)))
+dim(xcmat)
+xcmat[1,15]
+ls()
+rm(xcmat)
+ls
+ls9)
+ls()
+cmat <- cov(xmat, t(xmat))
+ls
+ls()
+testmat <- matrix(1:6, ncol=3)
+textmat
+testmat
+cov(testmat)
+testmat2 <- matrix(1:6, ncol=2)
+cov(testmat2)
+ls()
+ls
+ls()
+rm(i)
+ls
+ls()
+rm(xyzLine, xyzList)
+ls()
+x_Eigen
+ls()
+dim(x_Eigen)
+dim(x_Eigen$vectors)
+x_Eigen$vectors[1,]
+m <- matrix(ncol=3, ncol=2)
+m <- matrix(ncol=3, nrow=2)
+m
+m[1,1]<-1
+m[1,2]<-2
+m[1,3]<-3
+m[2,1]<-4
+m[2,2]<-5
+m[2,3]<-6
+m
+cov(m)
+m <- matrix(1:9, ncol=3)
+m
+cat(m)
+matrix(c(1,2,3,4,5,6,7,8,9), ncol=3)
+2^2
+3^3
+3^2
+1.58288288288299e-05^2 + 0.00114582882882883^2
+-0.017239396396396^2 + -0.043338396396396^2
+19317 * 19317
+7.501653384578925e-10
+as.character(7.501653384578925e-10)
+as.numeric(7.501653384578925e-10)
+0.00187217117117117 + (-1 * 0.0000843340)
+2^2
+1^6
+10^10
+2^10
+sqrt()
+sqrt(
+((0.00187217117117117-0.00148107207207207)^2)
++ ((-0.0782688828828829--0.0891269009009009)^2)
++((-0.0779786306306306--0.0710872072072072)^2))
+p <- c(0.00495182882882883, -0.116595495495495, -0.0122042252252252)
+p
+p <- matrix(p, nrow=3)
+p
+r <- matrix(c(0.00348030630630631, -0.11707081981982, 0.00163226126126126), nrow=3)
+r
+t(r) %*% r
+q <- r
+q
+pBar <- p
+qBar <- q
+rm(p, q, r)
+ls()
+pBar
+qBar
+rBar <- pBar - qBar
+rBar
+0.004951829 - 0.003480306
+t(r) %*% r
+t(rBar) %*% rBar
+sqrt(8)
+sqrt(10)
+3^2
+sqrt(9)
+sqrt((pBar[1,1]-qBar[1,1])^2 + (pBar[2,1]-qBar[2,1])^2 + (pBar[3,1]-qBar[3,1])^2)
+rBar <- pBar - qBar
+rBar
+t(rBar) * rBar
+t(rBar) %*% rBar
+0.0001938397 ^ 2
+sqrt(3.757383e-08)
+rBar %*% t(rBar)
+(pBar[1,1]-qBar[1,1])^2 + (pBar[2,1]-qBar[2,1])^2 + (pBar[3,1]-qBar[3,1])^2
+sqrt((pBar[1,1]-qBar[1,1])^2 + (pBar[2,1]-qBar[2,1])^2 + (pBar[3,1]-qBar[3,1])^2)
+sqrt(0.0001938397)
+sqrt(t(rBar) %*% rBar)
+0.0005518307#
+-0.002899082#
+-0.001135654
+pE1 <- matrix(c(0.0005518307, -0.002899082, -0.001135654), ncol=1)
+pE1
+qE1 <- matrix(c(-0.0002072654, -0.002423204, -0.0003095409), ncol=1)
+qE1
+pNew <- matrix(ncol=1, nrow=3)
+pNew
+pNew[1,1] <- pBar[1,1] + (pE1[1,1] * -2)
+pNew[2,1] <- pBar[2,1] + (pE1[2,1] * -2)
+pNew[3,1] <- pBar[3,1] + (pE1[3,1] * -2)
+pNew
+qNew <- matrix(ncol=1, nrow=3)
+qNew[1,1] <- qBar[1,1] + (qE1[1,1] * -2)
+qNew[2,1] <- qBar[2,1] + (qE1[2,1] * -2)
+qNew[3,1] <- qBar[3,1] + (qE1[3,1] * -2)
+qNew
+rNew <- pNew - qNew
+rNew
+sqrt(t(rNew) *%* rNew)
+sqrt(t(rNew) %*% rNew)
+t(rNew) %*% rNew
+sqrt(0.0001504949)
+sqrt((pNew[1,1] - qNew[1,1])^2 + (pNew[2,1] - qNew[2,1])^2 + (pNew[3,1] - qNew[3,1])^2 )
+pNew
+pBar
+ls()
+pBar <- matrix(c(0.00495182882882883, -0.116595495495495, -0.0122042252252252), ncol=1)
+pBar
+qBar <- matrix(c(0.00348030630630631, -0.11707081981982, 0.00163226126126126), ncol=1)
+qBar
+rBar <- pBar - qBar
+sqrt(t(rBar) %*% rBar)
+pEigen1 <- matrix(c(0.0001899204, -0.003478007, -0.001891756), ncol=1)
+qEigen1 <- matrix(c(0.0005518307, -0.002899082, -0.001135654), ncol=1)
+qEigen1
+for(v in pBar){}
+for(v in pBar){
+}
+p <- matrix(ncol=1, nrow=3)
+p
+p[1,1] <- pBar + (pEigen1[1,1] * 2)
+p[1,1] <- pBar[1,1] + (pEigen1[1,1] * 2)
+p[1,1]
+p <- pbar + (pEigen * 2)
+p <- pBar + (pEigen * 2)
+p <- pBar + (pEigen1 * 2)
+p
+q <- qBar + (qEigen1 * 2)
+q
+r <- p - q
+sqrt(t(r) %*% r)
+covmat <- matrix(0, ncol=19347, nrow = 19347)
+write.table(covmat[,1], file='MaleEigenValues100', sep='\n')
+write.table(covmat[,1], file='MaleEigenValues100', sep='\n',  row.names = False,col.names = FALSE)
+write.table(covmat[,1], file='MaleEigenValues100', sep='\n',  row.names = FALSE,col.names = FALSE)
+76.1 / 100
+68.7 / 0.761
+100 - 90.28
+100 - (78.13 / (68.6 / 100))
+100 - (68.64 / (75.3 /100))
+80.13 / (70.5 / 100)
+(9.72 + 13.89 + 8.84 + 13.66) / 4
+61.45 / (52.7 / 100)
+60.91 / (59.4 / 100)
+70.11 / (86.1 / 100)
+100 -  81.42857
+76.36 \ (75.6 / 100)
+76.36 / (75.6 / 100)
+(16.6 + 2.54 + 18.57 + 1.01 ) / 4
+49.61 \ (53.8 / 100)
+49.61 / (53.8 / 100)
+92.2119 - 100
+55.2 / (59.4 / 100)
+100-  92.92929
+69.84 / (68.2 / 100)
+77.6 / (86.1 / 100)
+100 -90.12776
+66.02 \ (68 \ 100)
+66.02 / (68 / 100)
+100 - 97.08824
+100 - (73.26 / (75.6 /100) )
+59.12 / (59.2 / 100)
+100 - 99.86486
+52.51 / (100 / 55.5)
+52.51 / ( 55.5 / 100)
+100 - 94.61261
+71.03 / (75.3 / 100)
+100 - 94.32935
+65.1 / (64 / 100)
+46.91 / (49.2 / 100)
+100 - 95.34553
+(7.79 + 7.07 + 2.40 + 9.87 + 2.91 + 3.1 + 0.14 + 5.39 + 5.67 + 1.72 + 4.65) / 11
+setwd('Documents/ComputerScienceMSc/SummerProject/R/prediction')
+list.files()
+source('functions.R')
+source('autotest.R')
+autotest()
+initialMeasurements <- list( #10 Measurements#
+                c(3751, 3721), #right waist to hip#
+                c(445, 3662), #left to right hip#
+                c(537, 3750), #left to right waist#
+                c(3867, 650), #chest#
+                c(28, 5441), #stomach front to back#
+                c(357, 209), #thigh to knee left#
+                c(911, 4130), #shoulder to shoulder#
+                c(916, 2727), #sholder to elbow#
+                c(1149, 1113), #neck to butt#
+                c(1796, 1397) #back of right calf#
+            );
+source('functions.R')
+source('autotest.R')
+autotest(initialMeasurements)
+source('autotest.R')
+autotest(initialMeasurements)
+autotest(initialMeasurements)
+autotest(initialMeasurements)
+autotest(initialMeasurements)
+source('autotest.R')
+autotest(initialMeasurements)
+source('autotest.R')
+autotest(initialMeasurements)
+source('autotest.R')
+autotest(initialMeasurements)
+source('autotest.R')
+autotest(initialMeasurements)
