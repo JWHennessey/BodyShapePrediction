@@ -1,4 +1,4 @@
-BodyShapePrediction
+BodyShapePrediction SCANNER
 ===================
 
 R program which takes 3D body scans (.obj) and performs a principle component analysis on them.
